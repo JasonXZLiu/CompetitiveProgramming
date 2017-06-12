@@ -3,11 +3,11 @@ import java.util.ArrayList;
 /**
  * Created by jason_001 on 5/23/2017.
  */
-public class Class {
+public class StudentsClass {
     private ArrayList hsClass;
     private int size;
 
-    Class(int size) {
+    StudentsClass(int size) {
         hsClass = new ArrayList(size);
     }
 

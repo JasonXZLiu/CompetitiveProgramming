@@ -9,14 +9,16 @@ public class Person {
     private String lastName;
     private int age;
     private int studentNumber;
+    private String key;
 
     Person(){}
 
-    Person(String firstName, String lastName, int age, int studentNumber) {
+    Person (String firstName, String lastName, int age, int studentNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.studentNumber = studentNumber;
+        this.key = firstName + "|" + lastName + "|" + age + "|" + studentNumber;
     }
 
     public String getFirstName() {
@@ -50,4 +52,21 @@ public class Person {
     public void setStudentNumber(int studentNumber) {
         this.studentNumber = studentNumber;
     }
+
+    public String getKey() {
+        return key;
+    }
+
+
+//    @Override
+//    public boolean equals(Object o) {
+//        if (o == null) return false;
+//        if (o == this) return true;
+//        if (!(o instanceof Person)) return false;
+//        Person person = (Person) o;
+//        if (person.firstName == this.firstName && person.lastName == this.lastName && person.age == this.age && person.studentNumber == this.studentNumber) {
+//            return true;
+//        }
+//        return false;
+//    }
 }
