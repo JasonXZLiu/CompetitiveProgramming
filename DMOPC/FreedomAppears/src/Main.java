@@ -86,8 +86,9 @@ public class Main {
         long posY;
         long posZ;
         long res;
+        boolean b;
         for (int i = 0; i < numEnemy; i++) {
-            boolean b = true;
+            b = true;
             posX = s.nextLong() - original[0];
             posY = s.nextLong() - original[1];
             posZ = s.nextLong() - original[2];
@@ -114,12 +115,12 @@ public class Main {
                 posX = posX / res;
                 posZ = posZ / res;
             } else {
-                res = gcd(posX, posZ);
+                res = gcd(posX, posY);
                 posX = posX / res;
-                posZ = posZ / res;
+                posY = posY / res;
             }
             for (int j = 0; j < size; j++) {
-                if (pos[j][0] == posX || pos[j][1] == posY || pos[j][2] == posZ) {
+                if (pos[j][0] == posX && pos[j][1] == posY && pos[j][2] == posZ) {
                     b = false;
                 }
             }
@@ -130,6 +131,6 @@ public class Main {
                 size++;
             }
         }
-        System.out.println(size);
+        System.out.println(size - 1);
     }
 }
