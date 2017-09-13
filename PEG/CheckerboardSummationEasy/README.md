@@ -1,0 +1,1 @@
+Solution to the problem: http://wcipeg.com/problem/cheasy
