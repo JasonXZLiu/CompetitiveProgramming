@@ -1,0 +1,1 @@
+Solution to 2014 DMOPC Contest 2 question 4: https://dmoj.ca/problem/dmpg15s5 
