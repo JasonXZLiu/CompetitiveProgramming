@@ -3,7 +3,7 @@
 Solutions to the Computer Contest problems that I solve on DMOJ or PEG (username: jasonliuxz) 
 
 # Questions Solved:
-* DMPG '15 S5 - Black and White
+* [DMPG '15 S5 - Black and White](https://github.com/JasonXZLiu/ComputerContest/tree/master/DMPG/blackandwhite)
 * DMOPC '14 Contest 2 P4 - Deforestation
 * Back From Summer '17 P2: Crayola Lightsaber
 * OR-deal
