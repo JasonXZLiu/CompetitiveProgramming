@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DMOJ.iml" filepath="$PROJECT_DIR$/DMOJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unfriend.iml" filepath="$PROJECT_DIR$/Unfriend.iml" />
     </modules>
   </component>
 </project>
