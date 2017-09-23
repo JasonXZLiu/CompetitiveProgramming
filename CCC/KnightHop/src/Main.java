@@ -30,64 +30,40 @@ public class Main {
         }
     }
 
+    public static void whyNot(int x, int y, int count) {
+        if(board[x][y] == 0) {
+            board[x][y] = count;
+            a.addLast(x);
+            a.addLast(y);
+        }
+    }
+
     public static void check(int x1, int y1, int count) {
         int size = a.size();
         while(size > 0) {
             if(x1 - 1 >= 0 && y1 - 2 >= 0 && x1 - 1 < 8 && y1 - 2 < 8) {
-                if(board[x1 - 1][y1 - 2] == 0) {
-                    board[x1 - 1][y1 - 2] = count;
-                    a.addLast(x1 - 1);
-                    a.addLast(y1 - 2);
-                }
+                whyNot(x1 -1, y1 - 2, count);
             }
             if(x1 - 1 >= 0 && y1 + 2 >= 0 && x1 - 1 < 8 && y1 + 2 < 8) {
-                if(board[x1 - 1][y1 + 2] == 0) {
-                    board[x1 - 1][y1 + 2] = count;
-                    a.addLast(x1 - 1);
-                    a.addLast(y1 + 2);
-                }
+                whyNot(x1 -1, y1 + 2, count);
             }
             if(x1 - 2 >= 0 && y1 - 1 >= 0 && x1 - 2 < 8 && y1 - 1 < 8) {
-                if(board[x1 - 2][y1 - 1] == 0) {
-                    board[x1 - 2][y1 - 1] = count;
-                    a.addLast(x1 - 2);
-                    a.addLast(y1 - 1);
-                }
+                whyNot(x1 - 2, y1 - 1, count);
             }
             if(x1 - 2 >= 0 && y1 + 1 >= 0 && x1 - 2 < 8 && y1 + 1 < 8) {
-                if(board[x1 - 2][y1 + 1] == 0) {
-                    board[x1 - 2][y1 + 1] = count;
-                    a.addLast(x1 - 2);
-                    a.addLast(y1 + 1);
-                }
+                whyNot(x1 - 2, y1 + 1, count);
             }
             if(x1 + 1 >= 0 && y1 - 2 >= 0 && x1 + 1 < 8 && y1 - 2 < 8) {
-                if(board[x1 + 1][y1 - 2] == 0) {
-                    board[x1 + 1][y1 - 2] = count;
-                    a.addLast(x1 + 1);
-                    a.addLast(y1 - 2);
-                }
+                whyNot(x1 +1, y1 - 2, count);
             }
             if(x1 + 1 >= 0 && y1 + 2 >= 0 && x1 + 1 < 8 && y1 + 2 < 8) {
-                if(board[x1 + 1][y1 + 2] == 0) {
-                    board[x1 + 1][y1 + 2] = count;
-                    a.addLast(x1 + 1);
-                    a.addLast(y1 + 2);
-                }
+                whyNot(x1 +1, y1 + 2, count);
             }
             if(x1 + 2 >= 0 && y1 - 1 >= 0 && x1 + 2 < 8 && y1 - 1 < 8) {
-                if(board[x1 + 2][y1 - 1] == 0) {
-                    board[x1 + 2][y1 - 1] = count;
-                    a.addLast(x1 + 2);
-                    a.addLast(y1 - 1);
-                }
+                whyNot(x1 +2, y1 - 1, count);
             }
             if(x1 + 2 >= 0 && y1 + 1 >= 0 && x1 + 2 < 8 && y1 + 1 < 8) {
-                if(board[x1 + 2][y1 + 1] == 0) {
-                    board[x1 + 2][y1 + 1] = count;
-                    a.addLast(x1 + 2);
-                    a.addLast(y1 + 1);
-                }
+                whyNot(x1 +2, y1 + 1, count);
             }
             size -= 2;
             x1 = a.remove();
