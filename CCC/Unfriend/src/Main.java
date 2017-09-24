@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -6,10 +7,10 @@ public class Main {
         // write your code here
         Scanner s = new Scanner(System.in);
         int N = s.nextInt();
-        int[] friends = new int[N];
-        int[][] adjm = new int[N][N];
+        Graph g = new Graph(N);
         for (int i = 0; i < N - 1; i++) {
             int a = s.nextInt();
+
             friends[a - 1]++;
             adjm[i][a-1]++;
         }
@@ -24,5 +25,18 @@ public class Main {
             }
         }
         System.out.println(total);
+    }
+
+    static class Graph {
+        private Friend[] friends;
+
+        Graph(int i) {
+            this.friends = new Friend[i];
+        }
+    }
+
+    static class Friend {
+        public int invitedNum;
+        public ArrayList<Friend> invited;
     }
 }

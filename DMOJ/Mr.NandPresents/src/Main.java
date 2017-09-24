@@ -1,28 +1,39 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         FastReader s = new FastReader();
-        LinkedList l = new LinkedList();
+        ArrayList<Long> front = new ArrayList<>();
+        ArrayList<Long> end = new ArrayList<>();
         int times = s.nextInt();
         for (int i = 0; i < times; i++) {
             String a = s.next();
+            Long l = s.nextLong();
             if(a.equals("F")) {
-                l.addFirst(s.nextLong());
+                front.add(l);
             } else if (a.equals("E")){
-                l.addLast(s.nextLong());
+                end.add(l);
             } else if (a.equals("R")){
-                l.remove(s.nextLong());
+                if(!front.contains(l)) {
+                    end.remove(l);
+                } else {
+                    front.remove(l);
+                }
             }
         }
-        for (int i = 0; i < l.size(); i++) {
-            System.out.println(l.get(i));
+        for (int i = front.size() - 1; i >= 0; i--) {
+            System.out.println(front.get(i));
+        }
+        for (int i = 0; i < end.size(); i++) {
+            System.out.println(end.get(i));
         }
     }
 
