@@ -14,6 +14,6 @@ Solutions to the Computer Contest problems that I solve on DMOJ or PEG (username
 * [OR-deal](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/OrDeal/src/Main.java)
 * [Back to School '17: Avalon](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/Avalon/src/Main.java)
 * DMOPC '14 Contest 2 P2 - Cutting Logs
-* CCC '15 S1 - Zero That Out
+* [CCC '15 S1 - Zero That Out](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ZeroThatOut/ZeroThatOut.py)
 * [Back To School '17: 🅱aram🅱e](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/BaramBe/src/Main.java)
 * Back From Summer '17 P1: Pithy Passtimes
