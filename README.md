@@ -13,7 +13,7 @@ Solutions to the Computer Contest problems that I solve on DMOJ or PEG (username
 * [CCC '17 S2 - High Tide, Low Tide ](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/HighTideLowTide/src/Main.java)
 * [OR-deal](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/OrDeal/src/Main.java)
 * [Back to School '17: Avalon](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/Avalon/src/Main.java)
-* DMOPC '14 Contest 2 P2 - Cutting Logs
+* [DMOPC '14 Contest 2 P2 - Cutting Logs](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/CuttingLogs/src/Main.java)
 * [CCC '15 S1 - Zero That Out](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ZeroThatOut/ZeroThatOut.py)
 * [Back To School '17: 🅱aram🅱e](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/BaramBe/src/Main.java)
-* Back From Summer '17 P1: Pithy Passtimes
+* [Back From Summer '17 P1: Pithy Passtimes](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/PithyPasstimes/src/Main.java)
