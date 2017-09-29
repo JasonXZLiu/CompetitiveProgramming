@@ -3,7 +3,10 @@
 Solutions to the Computer Contest problems that I solve on DMOJ or PEG (username: jasonliuxz) 
 
 # Questions Solved:
-* [DMPG '15 S5 - Black and White](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/blackandwhite/src/Main.java)
+* [DMPG '15 S5 - Black and White](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/CrossingField/src/Main.java)
+* [
+DMOPC '13 Contest 3 P3 - Crossing Field
+](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/blackandwhite/src/Main.java)
 * [CCC '10 J5 - Knight Hop ](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/KnightHop/src/Main.java)
 * [Mr. N and Presents ](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/Mr.NandPresents/src/Main.java)
 * [CCO '17 P1 - Vera and Trail Building ](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCO/VeraAndTrailBuilding/src/Main.java)
