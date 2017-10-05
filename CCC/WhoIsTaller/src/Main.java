@@ -4,49 +4,53 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
-    static int N;
+    static int N, M, start, end;
     static ArrayList<Integer>[] adj;
-    static int len, root;
 
-    public static void BFS(int start) {
+    public static boolean bfs(int s, int e) {
         Queue<Integer> q = new LinkedList<>();
         int[] visited = new int[N + 1];
-        int[] dis = new int[N + 1];
-        q.add(start); visited[start]++; dis[start] = 0;
+        q.add(s);
+        visited[s]++;
         while(!q.isEmpty()) {
-            int cur = q.remove();
-            if (dis[cur] > len) {
-                len = Math.max(len, dis[cur]);
-                root = cur;
-            }
-            for (int v : adj[cur]) {
-                if (visited[v] != 1) {
-                    q.add(v);
-                    visited[v]++;
-                    dis[v] = dis[cur] + 1;
+            int tmp = q.remove();
+            for(int tmp2: adj[tmp]) {
+                if(visited[tmp2] != 1) {
+                    q.add(tmp2);
+                    visited[tmp2]++;
                 }
             }
+            if(visited[e] == 1) {
+                return true;
+            }
         }
+        return false;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 	// write your code here
-        FastReader in = new FastReader();
-        N = in.nextInt();
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(in.readLine());
+        N = Integer.parseInt(st.nextToken()); M = Integer.parseInt(st.nextToken());
         adj = new ArrayList[N + 1];
-        for(int i = 1; i <= N; i++) adj[i] = new ArrayList<>();
-        for(int i = 1; i < N; i++) {
-            int tmp = in.nextInt();
-            int tmp2 = in.nextInt();
-            adj[tmp].add(tmp2);
-            adj[tmp2].add(tmp);
+        for(int i = 0; i < M; i++) {
+            st = new StringTokenizer(in.readLine());
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+            if(adj[x] == null) adj[x] = new ArrayList<Integer>();
+            if(adj[y] == null) adj[y] = new ArrayList<Integer>();
+            adj[x].add(y);
         }
-        len = 0; BFS(1);
-        len = 0; BFS(root);
-        System.out.println(len);
+        st = new StringTokenizer(in.readLine());
+        start = Integer.parseInt(st.nextToken());
+        end = Integer.parseInt(st.nextToken());
+        if(bfs(start, end)) System.out.println("yes");
+        else if(bfs(end, start)) System.out.println("no");
+        else System.out.println("unknown");
     }
 
-    static class FastReader {
+    static class FastReader
+    {
         BufferedReader br;
         StringTokenizer st;
 
