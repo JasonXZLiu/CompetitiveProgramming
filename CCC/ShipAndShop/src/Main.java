@@ -30,7 +30,7 @@ public class Main {
             int MIN = Integer.MAX_VALUE, idx = -1;
             for (int i = 0; i <= N; i++) {
                 if(!vis[i] && dis[i] < MIN) {
-                    MIN = dis[i]; idx = 1;
+                    MIN = dis[i]; idx = i;
                 }
             }
             if(idx == -1) break;
