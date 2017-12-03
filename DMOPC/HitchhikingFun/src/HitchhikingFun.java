@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class Main {
+class HicthhikingFun {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -34,7 +34,8 @@ public class Main {
                     dis[e.v] = dis[cur.v] + e.w;
                     blah[e.v] = blah[cur.v] + e.n;
                     Q.add(new E(e.v, dis[e.v], blah[e.v]));
-                } else if (dis[e.v] == dis[cur.v] + e.w && blah[e.v] > blah[cur.v] + e.n) {
+                }
+                else if(dis[e.v] == dis[cur.v] + e.w && blah[e.v] > blah[cur.v] + e.n){
                     blah[e.v] = blah[cur.v] + e.n;
                     Q.add(new E(e.v, dis[e.v], blah[e.v]));
                 }
