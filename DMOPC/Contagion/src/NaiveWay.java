@@ -1,9 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 public class NaiveWay {
@@ -13,24 +11,24 @@ public class NaiveWay {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
         City[] cities = new City[N+1];
-        int[][] adj = new int[N+1][N+1];
+        long[][] adj = new long[N+1][N+1];
         for(int i = 1; i <= N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int x = Integer.parseInt(st.nextToken()); int y = Integer.parseInt(st.nextToken());
+            long x = Integer.parseInt(st.nextToken()); long y = Integer.parseInt(st.nextToken());
             cities[i] = new City(x, y);
         }
         for(int i = 1; i <= N; i++) {
             for(int j = 1; j <= i; j++) {
-                int tmp = (cities[i].x-cities[j].x)*(cities[i].x-cities[j].x)+(cities[i].y-cities[j].y)*(cities[i].y-cities[j].y);
+                long tmp = (cities[i].x-cities[j].x)*(cities[i].x-cities[j].x)+(cities[i].y-cities[j].y)*(cities[i].y-cities[j].y);
                 adj[i][j] = tmp; adj[j][i] = tmp;
             }
         }
         int X = Integer.parseInt(br.readLine());
-        int dis[] = new int[N+1];
+        long dis[] = new long[N+1];
         boolean vis[] = new boolean[N+1];
-        Arrays.fill(dis, Integer.MAX_VALUE); dis[X] = 0;
+        Arrays.fill(dis, Long.MAX_VALUE); dis[X] = 0;
         for(int t = 1; t <= N; t++) {
-            int MIN = Integer.MAX_VALUE, idx = -1;
+            long MIN = Long.MAX_VALUE; int idx = -1;
             for (int i = 1; i <= N; i++) {
                 if(!vis[i] && dis[i] < MIN) {
                     MIN = dis[i]; idx = i;
@@ -44,14 +42,14 @@ public class NaiveWay {
             }
         }
         Arrays.sort(dis);
-        int query = Integer.parseInt(br.readLine());
+        long query = Long.parseLong(br.readLine());
         for(int i = 0; i < query; i++) {
-            int q = Integer.parseInt(br.readLine());
+            long q = Long.parseLong(br.readLine());
             System.out.println(binarySearch(dis, 0, N, q));
         }
     }
 
-    public static int binarySearch(int dis[], int l, int r, int q) {
+    public static int binarySearch(long[] dis, int l, int r, long q) {
         if (r>=l) {
             int mid = l + (r - l)/2;
             if (dis[mid] == q)
@@ -66,7 +64,7 @@ public class NaiveWay {
         return -1;
     }
 
-    public static int check(int dis[], int mid, int q) {
+    public static int check(long dis[], int mid, long q) {
         int cnt = 0;
         while(dis[mid] == q) {
             cnt++; mid++;
@@ -75,8 +73,8 @@ public class NaiveWay {
     }
 
     static class City {
-        public int x, y;
+        public long x, y;
 
-        City(int x0, int y0) {x = x0; y = y0;}
+        City(long x0, long y0) {x = x0; y = y0;}
     }
 }
