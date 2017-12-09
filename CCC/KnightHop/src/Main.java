@@ -1,19 +1,21 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
 
 public class Main {
     static int[][] board = new int[8][8];
     static LinkedList<Integer> a = new LinkedList<>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 	// write your code here
-        Scanner s = new Scanner(System.in);
-        int x1 = s.nextInt() - 1;
-        int y1 = s.nextInt() - 1;
-        int x2 = s.nextInt() - 1;
-        int y2 = s.nextInt() - 1;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int x1 = Integer.parseInt(st.nextToken()) - 1;
+        int y1 = Integer.parseInt(st.nextToken()) - 1;
+        st = new StringTokenizer(br.readLine());
+        int x2 = Integer.parseInt(st.nextToken()) - 1;
+        int y2 = Integer.parseInt(st.nextToken()) - 1;
         int count = 0;
         a.add(x1);
         a.add(y1);

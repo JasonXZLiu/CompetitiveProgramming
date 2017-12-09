@@ -1,38 +1,36 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // write your code here
-        Scanner s = new Scanner(System.in);
-        int N = s.nextInt();
-        Graph g = new Graph(N);
-        for (int i = 0; i < N - 1; i++) {
-            int a = s.nextInt();
-
-            friends[a - 1]++;
-            adjm[i][a-1]++;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
+        Friend[] friends = new Friend[N+1];
+        for (int i = 0; i <= N; i++) {
+            friends[i] = new Friend();
+            friends[i].invited = new ArrayList<>();
+        }
+        for (int i = 1; i <= N - 1; i++) {
+            int a = Integer.parseInt(br.readLine());
+            friends[a - 1].invitedNum++;
+            friends[a - 1].invited.add(friends[i]);
         }
         int total = 1;
-        for (int i = 0; i < N - 1; i++) {
-            int a = friends[i];
+        for (int i = 1; i <= N - 1; i++) {
+            int a = friends[i].invitedNum;
             total = total * (a + 2) / (a + 1);
-            for(int j = 0; j < N; j++) {
-                if(adjm[i][j] != 0) {
-                    total = total / ((friends[j] + 2) / (friends[j] + 1));
+            for(Friend f: friends[a].invited) {
+                if(f.invitedNum != 0) {
+                    total = total / ((friends[i].invitedNum + 2) / (f.invitedNum + 1));
                 }
             }
         }
         System.out.println(total);
-    }
-
-    static class Graph {
-        private Friend[] friends;
-
-        Graph(int i) {
-            this.friends = new Friend[i];
-        }
     }
 
     static class Friend {

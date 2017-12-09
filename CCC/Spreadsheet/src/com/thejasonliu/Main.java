@@ -11,9 +11,8 @@ public class Main {
         // write your code here
         FastReader in = new FastReader();
         int[][] ss = new int[10][9];
-        Queue<String[]> q = new LinkedList<>();
-        Queue<Integer> x = new LinkedList<>();
-        Queue<Integer> y = new LinkedList<>();
+        HashMap<Q, String[]> map = new HashMap<>();
+        Queue<Q> blap = new LinkedList<>();
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 9; j++) {
                 String a = in.next();
@@ -21,10 +20,10 @@ public class Main {
                     ss[i][j] = Integer.parseInt(a);
                 } else {
                     String[] tmp = a.split("\\+");
-                    int tmp1;
                     boolean b = true;
                     int total = 0;
                     for (String blah : tmp) {
+                        int tmp1;
                         switch (blah.substring(0, 1)) {
                             case "A":
                                 tmp1 = 0;
@@ -57,23 +56,28 @@ public class Main {
                                 tmp1 = 9;
                                 break;
                         }
-                        if (ss[tmp1][Integer.parseInt(blah.substring(1)) - 1] == 0) {
-                            b = false;
+                        int boop = Integer.parseInt(blah.substring(1));
+                        if (boop - 1 >= 0 && boop <= 9) {
+                            if (ss[tmp1][boop-1] != 0) {
+                                total += ss[tmp1][boop-1];
+                            } else {
+                                b = false;
+                            }
                         } else {
-                            total += ss[tmp1][Integer.parseInt(blah.substring(1)) - 1];
+                            b = false;
                         }
                     }
                     if (b) {ss[i][j] = total;}
-                    else {ss[i][j] = -1; q.add(tmp); x.add(i); y.add(j);}
+                    else {ss[i][j] = -1; Q qtemp = new Q(i, j); blap.add(qtemp); map.put(qtemp, tmp);}
                 }
             }
         }
-
-        while (!q.isEmpty()) {
-            int tmp1, total =0;
-            String[] tmp = q.remove();
-            int i = x.remove();
-            int j = y.remove();
+        while (!blap.isEmpty()) {
+            int tmp1, total = 0;
+            Q temp = blap.poll();
+            String[] tmp = map.get(temp);
+            int i = temp.x;
+            int j = temp.y;
             boolean b = true;
             for (String blah : tmp) {
                 switch (blah.substring(0, 1)) {
@@ -108,14 +112,13 @@ public class Main {
                         tmp1 = 9;
                         break;
                 }
-                if (ss[tmp1][Integer.parseInt(blah.substring(1)) - 1] == 0) {
-                    b = false;
-                } else {
-                    total += ss[tmp1][Integer.parseInt(blah.substring(1)) - 1];
+                int boop = Integer.parseInt(blah.substring(1));
+                if (ss[tmp1][boop - 1] >= 0) {
+                    total += ss[tmp1][boop - 1];
                 }
             }
             if (b) {ss[i][j] = total;}
-            else {ss[i][j] = -1; q.add(tmp); x.add(i); y.add(j);}
+            else {ss[i][j] = -1; Q qtemp = new Q(i, j); blap.add(qtemp); map.put(qtemp, tmp);}
         }
 
 
@@ -140,6 +143,12 @@ public class Main {
         }
 
         return isValidInteger;
+    }
+
+    static class Q {
+        public int x, y;
+
+        Q(int x0, int y0) {x = x0; y = x0;}
     }
 
     static class FastReader
