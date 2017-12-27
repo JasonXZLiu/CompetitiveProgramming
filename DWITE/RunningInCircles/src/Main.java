@@ -7,45 +7,42 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class Main {
-    public static int[][] adj;
-    public static int N, count = 0;
+    public static ArrayList<Integer>[] adj;
+    public static int N, ans;
+    public static boolean[] s;
+    public static int[] dis;
 
-    static int dfs(int s) {
-        Stack<Integer> S = new Stack<>();
-        int[] vis = new int[N+1];
-        Arrays.fill(vis, -1);
-        S.push(s);
-        vis[s] = 0;
-        while(!S.isEmpty()) {
-            int cur = S.pop();
-            for(int i = 0; i < 101; i++) {
-                if(adj[cur][i] == 1) {
-                    if(vis[i] == -1) {
-                        vis[i] = vis[cur] + 1;
-                        count = vis[i];
-                        S.push(i);
-                    } else {
-                        count++;
-                        return count;
-                    }
-                }
+    static void dfs(int v, int x) {
+        dis[v] = x;
+        s[v] = true;
+        for (int w : adj[v]) {
+            if(dis[w] == -1) {
+                dfs(w, x + 1);
+            } else if (s[w]) {
+                ans = x+1;
+                return;
             }
         }
-        return -1;
+        s[v] = false;
     }
 
     public static void main(String[] args) throws IOException {
-	// write your code here
+        // write your code here
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         for(int t = 0; t < 5; t++) {
             N = Integer.parseInt(br.readLine());
-            adj = new int[101][101];
+            adj = new ArrayList[101];
+            for(int i = 1; i <= 100; i++) adj[i] = new ArrayList<>();
             for(int i = 1; i <= N; i++) {
                 StringTokenizer st = new StringTokenizer(br.readLine());
-                adj[Integer.parseInt(st.nextToken())][Integer.parseInt(st.nextToken())] = 1;
+                int A = Integer.parseInt(st.nextToken()); int B = Integer.parseInt(st.nextToken());
+                adj[A].add(B);
             }
-            System.out.println(dfs(1));
-            count = 0;
+            dis = new int[101];
+            s = new boolean[101];
+            Arrays.fill(dis, -1);
+            dfs(1, 0);
+            System.out.println(ans);
         }
     }
 }
