@@ -3,6 +3,7 @@
 Solutions to the Computer Contest problems that I solve on DMOJ or PEG (username: jasonliuxz) 
 
 # Questions Solved:
+* [CCC '09 S4 - Shop and Ship](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ShopAndShip/src/Main.java)
 * [DMPG '15 S5 - Black and White](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/CrossingField/src/Main.java)
 * [
 CCC '13 S4 - Who is Taller?
