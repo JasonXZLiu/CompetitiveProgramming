@@ -46,6 +46,12 @@ CCC '13 S4 - Who is Taller?
 * [DMOPC '14 Contest 2 P2 - Cutting Logs](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/CuttingLogs/src/Main.java)
 * [DMOPC '14 Contest 1 P3 - New Students](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/NewStudent/src/Main.java)
 
+##### DWITE Questions
+* [DWITE '07 R2 #5 - Bridges In A Graph](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/BridgesInAGraph/src/Main.java)
+* [DWITE '09 R6 #5 - Air Travel Planning]
+* [DWITE '09 R7 #2 - Sum of Primes](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/SumOfPrimes/src/Main.java)
+* [DWITE '11 R5 #4 - Forest Fires]
+
 ##### Assorted Questions
 * [Disjoint Set Test](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DisjointSetTest/src/Main.java)
 * [Death Gun](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DeathGun/src/com/thejasonliu/Main.java)
@@ -55,6 +61,8 @@ CCC '13 S4 - Who is Taller?
 * [VMSS '15 #4 - Frank and Roads](https://github.com/JasonXZLiu/ComputerContest/blob/master/VMSS/FrankandRoads/src/Main.java)
 * [Mr. N and Presents ](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/Mr.NandPresents/src/Main.java)
 * [Alex and Animal Rights](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/AlexAndAnimalRights/src/Main.java)
+* [Longest Common Subsequence](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/LongestCommonSubsequence/src/Main.java)
+* [Single Source Shortest Path](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/SingleSourceShortestPath/src/Main.java)
 * [Is it a Tree?](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCO/VeraAndTrailBuilding/src/Main.java)
 * [Back From Summer '17 P2: Crayola Lightsaber](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/CrayolaLightsaber/src/Main.java)
 * [COCI '07 Contest 1 #2 PEG](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/PEG/src/Main.java)
