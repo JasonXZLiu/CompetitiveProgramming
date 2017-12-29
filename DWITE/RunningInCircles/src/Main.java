@@ -19,7 +19,7 @@ public class Main {
             if(dis[w] == -1) {
                 dfs(w, x + 1);
             } else if (s[w]) {
-                ans = x+1;
+                ans = x;
                 return;
             }
         }
@@ -41,7 +41,7 @@ public class Main {
             dis = new int[101];
             s = new boolean[101];
             Arrays.fill(dis, -1);
-            dfs(1, 0);
+            dfs(1, 1);
             System.out.println(ans);
         }
     }
