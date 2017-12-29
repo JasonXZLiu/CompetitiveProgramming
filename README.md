@@ -6,6 +6,7 @@ ___
 
 ### HackerRank Questions:
 * [List of Questions](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src)
+* [ProjectEulerContest](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src/ProjectEuler)
 
 ___
 
