@@ -4,35 +4,57 @@ Solutions to the Computer Contest problems that I solve on DMOJ or PEG (username
 
 ___
 
-# HackerRank Questions:
+### HackerRank Questions:
 * [List of Questions](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src)
 
 ___
 
-# DMOJ Questions Solved:
+### DMOJ Questions Solved:
 
-### CCC Questions
+##### CCC Questions
 * [CCC '09 S4 - Shop and Ship](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ShopAndShip/src/Main.java)
+* [CCC '03 S5 - Trucking Troubles](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/TruckingTroubles/src/Main.java)
 * [
 CCC '13 S4 - Who is Taller?
 ](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/WhoIsTaller/src/Main.java)
-* [CCC '10 J5 - Knight Hop ](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/KnightHop/src/Main.java)
+* [CCC '01 S3 - Strategic Bombing](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/StrategicBombing/src/Main.java)
+* [CCC '10 J5 - Knight Hop](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/KnightHop/src/Main.java)
+* [CCC '07 S3 - Friends](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Friends/src/Main.java)
 * [CCC '17 S3 - Nailed It!](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/NailedIt/src/Main.java)
-* [CCO '17 P1 - Vera and Trail Building ](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCO/VeraAndTrailBuilding/src/Main.java)
-* [CCC '17 S2 - High Tide, Low Tide ](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/HighTideLowTide/src/Main.java)
+* [CCC '08 S3 - Maze](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Maze/src/Main.java)
+* [CCO '17 P1 - Vera and Trail Building](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCO/VeraAndTrailBuilding/src/Main.java)
+* [CCC '14 S3 - The Geneva Confection](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Geneva/src/Main.java)
+* [CCC '12 S3 - Absolutely Acidic](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/AbsolutelyAcidic/src/Main.java)
+* [CCC '17 S2 - High Tide, Low Tide](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/HighTideLowTide/src/Main.java)
+* [CCC '03 S3 - Floor Plan](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/FloorPlan/src/Main.java)
 * [CCC '17 S1 - Sum Game](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/SumGame/src/Main.java)
 * [CCC '15 S1 - Zero That Out](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ZeroThatOut/ZeroThatOut.py)
+* [CCC '00 J3 - Slot Machines](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/SlowMachines/Main.java)
+* [CCC '04 J3 - Smile with Similes](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/SmilewithSmiles/Main.java)
+* [CCC '00 J2 - 9966](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/9966/src/Main.java)
+* [CCC '00 J1 - Calendar](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Calendar/src/Main.java)
 
-### DMOPC Questions
-* [DMOPC '13 Contest 3 P3 - Crossing Field](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/blackandwhite/src/Main.java)
+##### DMOPC Questions
+* [DMPG '15 S5 - Black and White](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/blackandwhite/src/Main.java)
+* [DMOPC '14 Contest 1 P5 - Surprise Teleport](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/SurpriseTeleport/src/Main.java)
+* [DMOPC '15 Contest 3 P4 - Contagion](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/Contagion/src/Main.java)
+* [DMOPC '13 Contest 1 P4 - AFK](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/AFK/src/Main.java)
+* [DMPG '15 S4 - Signal Hill](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/SignalHill/src/Main.java)
+* [DMOPC '13 Contest 3 P3 - Crossing Field](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/CrossingField/src/Main.java)
 * [DMOPC '14 Contest 2 P4 - Deforestation](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/Deforestation/src/Main.java)
+* [DMOPC '17 Contest 1 P3 - Hitchhiking Fun](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/HitchhikingFun/src/Main.java)
 * [DMOPC '14 Contest 2 P2 - Cutting Logs](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/CuttingLogs/src/Main.java)
+* [DMOPC '14 Contest 1 P3 - New Students](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/NewStudent/src/Main.java)
 
-### Assorted Questions
-* [DMPG '15 S5 - Black and White](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/CrossingField/src/Main.java)
+##### Assorted Questions
+* [Disjoint Set Test](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DisjointSetTest/src/Main.java)
 * [Death Gun](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DeathGun/src/com/thejasonliu/Main.java)
 * [VM7WC '16 #5 Gold - Jayden Studies Trees](https://github.com/JasonXZLiu/ComputerContest/blob/master/VM7WC/JaydenStudiesTrees/src/Main.java)
+* [VM7WC '15 #4 Gold - Chain Rule](https://github.com/JasonXZLiu/ComputerContest/blob/master/VM7WC/ChainRule/src/Main.java)
+* [VM7WC '16 #3 Gold - Hello, Officer.](https://github.com/JasonXZLiu/ComputerContest/blob/master/VM7WC/HelloOfficer/src/Main.java)
+* [VMSS '15 #4 - Frank and Roads](https://github.com/JasonXZLiu/ComputerContest/blob/master/VMSS/FrankandRoads/src/Main.java)
 * [Mr. N and Presents ](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/Mr.NandPresents/src/Main.java)
+* [Alex and Animal Rights](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/AlexAndAnimalRights/src/Main.java)
 * [Is it a Tree?](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCO/VeraAndTrailBuilding/src/Main.java)
 * [Back From Summer '17 P2: Crayola Lightsaber](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/CrayolaLightsaber/src/Main.java)
 * [COCI '07 Contest 1 #2 PEG](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/PEG/src/Main.java)
