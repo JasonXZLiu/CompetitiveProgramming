@@ -7,6 +7,7 @@ ___
 ### HackerRank Questions:
 * [List of Questions](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src)
 * [ProjectEulerContest](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src/ProjectEuler)
+* [DataStructuresQuestions](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src/DataStructures)
 
 ___
 
@@ -32,6 +33,8 @@ CCC '13 S4 - Who is Taller?
 * [CCC '15 S1 - Zero That Out](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ZeroThatOut/ZeroThatOut.py)
 * [CCC '00 J3 - Slot Machines](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/SlowMachines/Main.java)
 * [CCC '04 J3 - Smile with Similes](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/SmilewithSmiles/Main.java)
+* [CCCHK '08 J2 - Lucky Number](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/LuckyNumber/src/Main.java)
+* [CCCHK '15 J1 - Rock-paper-scissors](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/RockPaperScissors/src/Main.java)
 * [CCC '00 J2 - 9966](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/9966/src/Main.java)
 * [CCC '00 J1 - Calendar](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Calendar/src/Main.java)
 
@@ -46,12 +49,14 @@ CCC '13 S4 - Who is Taller?
 * [DMOPC '17 Contest 1 P3 - Hitchhiking Fun](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/HitchhikingFun/src/Main.java)
 * [DMOPC '14 Contest 2 P2 - Cutting Logs](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/CuttingLogs/src/Main.java)
 * [DMOPC '14 Contest 1 P3 - New Students](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/NewStudent/src/Main.java)
+* [DMOPC '14 Contest 3 P1 - Not Enough Users!](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/NotEnoughUsers/src/Main.java)
+* [DMPG '17 B1 - Whale and Soul](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/WhaleAndSoul/src/Main.java)
 
 ##### DWITE Questions
 * [DWITE '07 R2 #5 - Bridges In A Graph](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/BridgesInAGraph/src/Main.java)
-* [DWITE '09 R6 #5 - Air Travel Planning]
+* [DWITE '09 R6 #5 - Air Travel Planning](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/AirTravelPlanning/src/Main.java)
 * [DWITE '09 R7 #2 - Sum of Primes](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/SumOfPrimes/src/Main.java)
-* [DWITE '11 R5 #4 - Forest Fires]
+* [DWITE '11 R5 #4 - Forest Fires](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/ForestFires/src/Main.java)
 
 ##### Assorted Questions
 * [Disjoint Set Test](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DisjointSetTest/src/Main.java)
