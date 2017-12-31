@@ -4,14 +4,14 @@ Solutions to the Computer Contest problems that I solve on DMOJ and HackerRank (
 
 ___
 
-### HackerRank Questions:
+### [HackerRank](https://www.hackerrank.com/jasonliuxz) Questions:
 * [List of Questions](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src)
 * [ProjectEulerContest](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src/ProjectEuler)
 * [DataStructuresQuestions](https://github.com/JasonXZLiu/ComputerContest/tree/master/HackerRank/src/DataStructures)
 
 ___
 
-### DMOJ Questions Solved:
+### [DMOJ](https://dmoj.ca/) Questions Solved:
 
 ##### CCC Questions
 * [CCC '09 S4 - Shop and Ship](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ShopAndShip/src/Main.java)
