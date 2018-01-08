@@ -24,8 +24,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="429">
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -481,6 +481,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NaiveWay.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NaiveWay.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
@@ -609,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="429">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
           <folding />
         </state>
       </provider>
