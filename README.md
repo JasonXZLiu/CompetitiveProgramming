@@ -1,6 +1,6 @@
 # ComputerContest
 
-Solutions to the Computer Contest problems that I solve on DMOJ and HackerRank (username: jasonliuxz) 
+Solutions to the Computer Contest problems that I solve on DMOJ and [HackerRank](https://www.hackerrank.com/jasonliuxz) (username: jasonliuxz) 
 
 ___
 
