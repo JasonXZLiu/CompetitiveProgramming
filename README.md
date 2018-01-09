@@ -19,6 +19,7 @@ ___
 * [
 CCC '13 S4 - Who is Taller?
 ](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/WhoIsTaller/src/Main.java)
+* [CCC '00 S4 - Golf](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Golf/src/Main.java)
 * [CCC '01 S3 - Strategic Bombing](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/StrategicBombing/src/Main.java)
 * [CCC '10 J5 - Knight Hop](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/KnightHop/src/Main.java)
 * [CCC '07 S3 - Friends](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Friends/src/Main.java)
@@ -29,6 +30,7 @@ CCC '13 S4 - Who is Taller?
 * [CCC '12 S3 - Absolutely Acidic](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/AbsolutelyAcidic/src/Main.java)
 * [CCC '17 S2 - High Tide, Low Tide](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/HighTideLowTide/src/Main.java)
 * [CCC '03 S3 - Floor Plan](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/FloorPlan/src/Main.java)
+* [CCC '00 J4 - Babbling Brooks](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/BabblingBrooks/src/Main.java)
 * [CCC '17 S1 - Sum Game](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/SumGame/src/Main.java)
 * [CCC '15 S1 - Zero That Out](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ZeroThatOut/ZeroThatOut.py)
 * [CCC '00 J3 - Slot Machines](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/SlowMachines/Main.java)
