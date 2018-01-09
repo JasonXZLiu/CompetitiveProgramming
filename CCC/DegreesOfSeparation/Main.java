@@ -9,7 +9,7 @@ import java.util.Queue;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        // write your code here
+	// write your code here
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<Integer>[] adj = new ArrayList[51];
         for(int i = 1; i <= 50; i++) adj[i] = new ArrayList<>();
@@ -46,10 +46,10 @@ public class Main {
                     if(!adj[Y].contains(X)) adj[Y].add(X);
                     break;
                 case "d":
-                    Integer A = Integer.parseInt(br.readLine());
-                    Integer B = Integer.parseInt(br.readLine());
-                    if(adj[A].contains(B)) adj[A].remove(B);
-                    if(adj[B].contains(A)) adj[B].remove(A);
+                    X = Integer.parseInt(br.readLine());
+                    Y = Integer.parseInt(br.readLine());
+                    if(!adj[X].contains(Y)) adj[X].remove(Y);
+                    if(!adj[Y].contains(X)) adj[Y].remove(X);
                     break;
                 case "n":
                     X = Integer.parseInt(br.readLine());
@@ -57,6 +57,7 @@ public class Main {
                     break;
                 case "f":
                     X = Integer.parseInt(br.readLine());
+                    Y = Integer.parseInt(br.readLine());
                     Q = new LinkedList<>();
                     boolean[] vis = new boolean[51]; int count = 0;
                     vis[X] = true;
@@ -90,7 +91,6 @@ public class Main {
                                 Q.add(x);
                             }
                         }
-                        if(dis[Y] != -1) break;
                     }
                     if(dis[Y] != -1) System.out.println(dis[Y]);
                     else System.out.println("Not connected");
@@ -98,7 +98,6 @@ public class Main {
                 default:
                     break;
             }
-            S = br.readLine();
         }
     }
 }
