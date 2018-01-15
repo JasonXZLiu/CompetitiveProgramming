@@ -14,9 +14,11 @@ ___
 ### DMOJ Questions Solved: 
 
 ##### CCC Questions
+* [CCC '15 S4 - Convex Hull](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ConvexHull/src/Main.java)
 * [CCC '09 S4 - Shop and Ship](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ShopAndShip/src/Main.java)
 * [CCC '03 S5 - Trucking Troubles](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/TruckingTroubles/src/Main.java)
 * [CCC '13 S4 - Who is Taller?](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/WhoIsTaller/src/Main.java)
+* [CCC '12 S5 - Mouse Journey](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/MouseJourney/src/Main.java)
 * [CCC '00 S4 - Golf](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Golf/src/Main.java)
 * [CCC '01 S3 - Strategic Bombing](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/StrategicBombing/src/Main.java)
 * [CCC '10 J5 - Knight Hop](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/KnightHop/src/Main.java)
@@ -42,6 +44,7 @@ ___
 ##### DMOPC Questions
 * [DMPG '15 S5 - Black and White](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/blackandwhite/src/Main.java)
 * [DMOPC '14 Contest 1 P5 - Surprise Teleport](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/SurpriseTeleport/src/Main.java)
+* [DMOPC '14 Contest 2 P5 - Sawmill Scheme](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/SawmillScheme/src/Main.java)
 * [DMOPC '15 Contest 3 P4 - Contagion](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/Contagion/src/Main.java)
 * [DMOPC '13 Contest 1 P4 - AFK](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/AFK/src/Main.java)
 * [DMPG '15 S4 - Signal Hill](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/SignalHill/src/Main.java)
@@ -62,6 +65,7 @@ ___
 * [DWITE '09 R7 #2 - Sum of Primes](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/SumOfPrimes/src/Main.java)
 
 ##### Assorted Questions
+* [Simon and Marcy](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/SimonAndMarcy/src/Main.java)
 * [Disjoint Set Test](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DisjointSetTest/src/Main.java)
 * [Death Gun](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DeathGun/src/com/thejasonliu/Main.java)
 * [VM7WC '16 #5 Gold - Jayden Studies Trees](https://github.com/JasonXZLiu/ComputerContest/blob/master/VM7WC/JaydenStudiesTrees/src/Main.java)
