@@ -79,6 +79,7 @@ ___
 * [Is it a Tree?](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCO/VeraAndTrailBuilding/src/Main.java)
 * [VMSS '15 #2 - Tomb Robbing](https://github.com/JasonXZLiu/ComputerContest/blob/master/VMSS/TombRobbing/src/Main.java)
 * [Back From Summer '17 P2: Crayola Lightsaber](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/CrayolaLightsaber/src/Main.java)
+* [VM7WC '16 #5 Silver - Jayden Eats Chocolate](https://github.com/JasonXZLiu/ComputerContest/blob/master/VM7WC/JaydenEatsChocolate/src/Main.java)
 * [COCI '07 Contest 1 #2 PEG](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/PEG/src/Main.java)
 * [COCI '14 Contest 1 #2 Klopka](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/Klopka/src/Main.java)
  [OR-deal](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/OrDeal/src/Main.java)
