@@ -14,6 +14,7 @@ ___
 ### DMOJ Questions Solved: 
 
 ##### CCC Questions
+* [CCC '09 S5 - Wireless](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Wireless/src/Main.java)
 * [CCC '15 S4 - Convex Hull](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ConvexHull/src/Main.java)
 * [CCC '09 S4 - Shop and Ship](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/ShopAndShip/src/Main.java)
 * [CCC '03 S5 - Trucking Troubles](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/TruckingTroubles/src/Main.java)
@@ -25,6 +26,7 @@ ___
 * [CCC '07 S3 - Friends](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Friends/src/Main.java)
 * [CCC '17 S3 - Nailed It!](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/NailedIt/src/Main.java)
 * [CCC '08 S3 - Maze](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Maze/src/Main.java)
+* [CCC '07 S5 - Bowling for Numbers](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/BowlingForNumbers/src/Main.java)
 * [CCO '17 P1 - Vera and Trail Building](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCO/VeraAndTrailBuilding/src/Main.java)
 * [CCC '14 S3 - The Geneva Confection](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Geneva/src/Main.java)
 * [CCC '12 S3 - Absolutely Acidic](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/AbsolutelyAcidic/src/Main.java)
