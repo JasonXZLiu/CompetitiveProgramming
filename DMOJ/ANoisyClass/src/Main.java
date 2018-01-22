@@ -4,47 +4,44 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
-    public static int N, edgeTo[];
+    public static int N;
     public static ArrayList<Integer>[] adj;
-    public static boolean[] onStack, marked;
-    public static Stack<Integer> cycle;
+    public static boolean[] vis;
+    public static Set<Integer> S = new HashSet<>();
 
-    public static void dfs(int v) {
-        onStack[v] = true;
-        marked[v] = true;
-        for (int w : adj[v]) {
-            if (cycle != null) return;
-            else if (!marked[w]) {
-                edgeTo[w] = v;
-                dfs(w);
-            }
-            else if (onStack[w]) {
-                cycle = new Stack<Integer>();
-                for (int x = v; x != w; x = edgeTo[x]) {
-                    cycle.push(x);
+    public static boolean check(int v, boolean[] visited, Set<Integer> S) {
+        if(!visited[v]) {
+            visited[v] = true;
+            S.add(v);
+            for(int i : adj[v]) {
+                if(!visited[i]) {
+                    if(check(i, visited, S))
+                        return true;
                 }
-                cycle.push(w);
-                cycle.push(v);
+                else if(S.contains(i))
+                    return true;
             }
         }
-        onStack[v] = false;
+        S.remove(v);
+        return false;
     }
 
     public static void main(String[] args) throws IOException {
-	// write your code here
+        // write your code here
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        N = Integer.parseInt(br.readLine()); int M = Integer.parseInt(br.readLine());
+        N = Integer.parseInt(br.readLine()); int K = Integer.parseInt(br.readLine());
         adj = new ArrayList[N+1];
         for(int i = 1; i <= N; i++) adj[i] = new ArrayList<>();
-        for(int i = 0; i < M; i++) {
+        for(int i = 0; i < K; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int X = Integer.parseInt(st.nextToken()); int Y = Integer.parseInt(st.nextToken());
-            adj[X].add(Y);
+            int A = Integer.parseInt(st.nextToken()), B = Integer.parseInt(st.nextToken());
+            adj[A].add(B);
         }
-        onStack = new boolean[N+1]; marked = new boolean[N+1];
-        edgeTo = new int[N+1];
-        dfs(1);
-        if(cycle == null) System.out.println("Y");
-        else System.out.println("N");
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int A = Integer.parseInt(st.nextToken()), B = Integer.parseInt(st.nextToken());
+        if(check(A, vis, S)) System.out.println("N");
+        else System.out.println("Y");
+        vis = new boolean[N+1];
+        Arrays.fill(vis, false);
     }
 }
