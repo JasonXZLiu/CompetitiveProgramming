@@ -20,6 +20,8 @@ ___
 * [CCC '03 S5 - Trucking Troubles](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/TruckingTroubles/src/Main.java)
 * [CCC '13 S4 - Who is Taller?](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/WhoIsTaller/src/Main.java)
 * [CCC '12 S5 - Mouse Journey](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/MouseJourney/src/Main.java)
+* [CCC '01 S4 - Cookies](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Cookies/src/Main.java)
+* [CCC '07 S4 - Waterpark](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/WaterPark/src/Main.java)
 * [CCC '00 S4 - Golf](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Golf/src/Main.java)
 * [CCC '01 S3 - Strategic Bombing](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/StrategicBombing/src/Main.java)
 * [CCC '10 J5 - Knight Hop](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/KnightHop/src/Main.java)
@@ -66,7 +68,7 @@ ___
 * [DWITE '09 R2 #4 - Breadth First Not Quite Tree](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/BreadthFirstNotQuiteTree/src/Main.java)
 * [DWITE '09 R7 #2 - Sum of Primes](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/SumOfPrimes/src/Main.java)
 
-##### Assorted Questions
+##### Assorted DMOJ Questions
 * [Simon and Marcy](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/SimonAndMarcy/src/Main.java)
 * [Disjoint Set Test](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DisjointSetTest/src/Main.java)
 * [Death Gun](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DeathGun/src/com/thejasonliu/Main.java)
@@ -89,3 +91,11 @@ ___
 * [Back to School '17: Avalon](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/Avalon/src/Main.java)
 * [Back To School '17: 🅱aram🅱e](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/BaramBe/src/Main.java)
 * [Back From Summer '17 P1: Pithy Passtimes](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/PithyPasstimes/src/Main.java)
+
+##### Assorted PEG Questions
+* [Longest Increasing Subsequence](https://github.com/JasonXZLiu/ComputerContest/blob/master/PEG/LongestIncreasingSubsequence/src/Main.java)
+* [Directed Acylcic Graph](https://github.com/JasonXZLiu/ComputerContest/blob/master/PEG/DirectedAcyclicGraph/src/Main.java)
+* [Maximum Sum](https://github.com/JasonXZLiu/ComputerContest/blob/master/PEG/MaximumSum/src/Main.java)
+* [Coin Change](https://github.com/JasonXZLiu/ComputerContest/blob/master/PEG/CoinChange/src/Main.java)
+* [Coding Spree](https://github.com/JasonXZLiu/ComputerContest/blob/master/PEG/CodingSpree/src/Main.java)
+* [Checkerboard Summation Easy](https://github.com/JasonXZLiu/ComputerContest/blob/master/PEG/CheckerboardSummationEasy/src/Main.java)
