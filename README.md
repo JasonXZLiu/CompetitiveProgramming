@@ -46,6 +46,7 @@ ___
 * [CCC '00 J1 - Calendar](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCC/Calendar/src/Main.java)
 
 ##### DMOPC Questions
+* [DMOPC '13 Contest 3 P5 - A Romantic Dinner](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/ARomanticDinner/src/Main.java)
 * [DMPG '15 S5 - Black and White](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMPG/blackandwhite/src/Main.java)
 * [DMOPC '14 Contest 1 P5 - Surprise Teleport](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/SurpriseTeleport/src/Main.java)
 * [DMOPC '14 Contest 2 P5 - Sawmill Scheme](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOPC/SawmillScheme/src/Main.java)
