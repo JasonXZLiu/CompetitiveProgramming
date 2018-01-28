@@ -19,8 +19,8 @@ public class Main {
             for(int j = 1; j <= M; j++) {
                 for(int k = 1; k <= U; k++) {
                     if (j - t >= 0 && k - f >= 0) {
-                        ans[j][k][i] = Math.max(ans[j][k-1][i - 1], ans[j - t][k-f][i - 1] + v);
-                    } else ans[j][k][i] = ans[j][k-1][i-1];
+                        ans[j][k][i] = Math.max(ans[j][k][i - 1], ans[j - t][k-f][i - 1] + v);
+                    } else ans[j][k][i] = ans[j][k][i-1];
                 }
             }
         }

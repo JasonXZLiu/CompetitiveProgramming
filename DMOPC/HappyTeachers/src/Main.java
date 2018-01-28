@@ -23,19 +23,18 @@ public class Main {
         for(int i = 1; i <= N; i++) {
             int H = save[i][0], E = save[i][1], P = save[i][2];
             int sum = H; int sumP = P;
-            while(H > 0 && T - sumP >= 0) {
-                boolean b = false;
+            while(H > 0 && T - sumP - ans[T][i-1] >= 0) {
+                System.out.println(sumP);
+                dur[i]++;
                 for(int j = 1; j <= T; j++) {
                     if(j - sumP >= 0) {
                         ans[j][i] = Math.max(ans[j][i - 1], ans[j][i]);
                         if(ans[j-sumP][i - 1] + sum > ans[j][i]) {
-                            b = true;
                             ans[j][i] = ans[j-sumP][i - 1] + sum;
                         }
                     }
                     else ans[j][i] =  Math.max(ans[j][i - 1], ans[j][i]);
                 }
-                if(b) dur[i]++;
                 H -= E;
                 sum += H;
                 sumP += P;
