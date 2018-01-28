@@ -81,6 +81,7 @@ ___
 * [Longest Common Subsequence](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/LongestCommonSubsequence/src/Main.java)
 * [Single Source Shortest Path](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/SingleSourceShortestPath/src/Main.java)
 * [Is it a Tree?](https://github.com/JasonXZLiu/ComputerContest/blob/master/CCO/VeraAndTrailBuilding/src/Main.java)
+* [MEC '16 P3 - Getting Good at Programming](https://github.com/JasonXZLiu/ComputerContest/blob/master/MEC/GettingGoodatProgramming/src/Main.java)
 * [VMSS '15 #2 - Tomb Robbing](https://github.com/JasonXZLiu/ComputerContest/blob/master/VMSS/TombRobbing/src/Main.java)
 * [Back From Summer '17 P2: Crayola Lightsaber](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/CrayolaLightsaber/src/Main.java)
 * [VM7WC '16 #5 Silver - Jayden Eats Chocolate](https://github.com/JasonXZLiu/ComputerContest/blob/master/VM7WC/JaydenEatsChocolate/src/Main.java)
