@@ -70,6 +70,7 @@ ___
 * [DWITE '09 R7 #2 - Sum of Primes](https://github.com/JasonXZLiu/ComputerContest/blob/master/DWITE/SumOfPrimes/src/Main.java)
 
 ##### Assorted DMOJ Questions
+* [VM7WC '16 #2 Gold - GGG](https://github.com/JasonXZLiu/ComputerContest/blob/master/VM7WC/GGG/src/Main.java)
 * [Simon and Marcy](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/SimonAndMarcy/src/Main.java)
 * [Disjoint Set Test](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DisjointSetTest/src/Main.java)
 * [Death Gun](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/DeathGun/src/com/thejasonliu/Main.java)
