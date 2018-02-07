@@ -95,6 +95,9 @@ ___
 * [Back To School '17: 🅱aram🅱e](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/BaramBe/src/Main.java)
 * [Back From Summer '17 P1: Pithy Passtimes](https://github.com/JasonXZLiu/ComputerContest/blob/master/DMOJ/PithyPasstimes/src/Main.java)
 
+##### DMOJ Contests
+* [Mock CCC '18 Contest 3 Senior](https://github.com/JasonXZLiu/ComputerContest/tree/master/CCC/MockCCC18/Contest3/src)
+
 ##### Assorted PEG Questions
 * [Longest Increasing Subsequence](https://github.com/JasonXZLiu/ComputerContest/blob/master/PEG/LongestIncreasingSubsequence/src/Main.java)
 * [Directed Acylcic Graph](https://github.com/JasonXZLiu/ComputerContest/blob/master/PEG/DirectedAcyclicGraph/src/Main.java)
