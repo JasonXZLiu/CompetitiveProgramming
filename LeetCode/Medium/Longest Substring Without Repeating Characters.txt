@@ -1,0 +1,19 @@
+// Java Solution
+// 9/18/2018
+
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int max = 0;
+        for(int i = 0; i < s.length(); i++) {
+            for(int j = 1; i + j < s.length(); j++) {
+                if(s.substring(i, i+j).contains(s.substring(i+j, i+j+1))) {
+                    max = Math.max(max, s.substring(i, i+j).length());
+                    i = i + s.substring(i, i+j).indexOf(s.substring(i+j, i+j+1));
+                    break;
+                } else if (i + j + 1 == s.length()) max = Math.max(max, s.length() - i);
+            }
+        }
+        if(max == 0) return s.length();
+        return max;
+    }
+}

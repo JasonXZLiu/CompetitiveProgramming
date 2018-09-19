@@ -1,0 +1,37 @@
+// Java Solution
+// 9/17/2018
+
+class RLEIterator {
+    int idx;
+    int[] lst;
+
+    public RLEIterator(int[] A) {
+        idx = 0;
+        lst = A;
+    }
+    
+    public int next(int n) {
+        while(n != 0) {
+            if(idx >= lst.length) return -1;
+            if(lst[idx] - n < 0) {
+                n -= lst[idx];
+                idx += 2;
+            } 
+            else if (lst[idx] - n == 0) {
+                idx += 2;
+                return lst[idx-1];
+            }
+            else {
+                lst[idx] = lst[idx] - n;
+                n = 0;
+            }
+        }
+        return lst[idx + 1];
+    }
+}
+
+/**
+ * Your RLEIterator object will be instantiated and called as such:
+ * RLEIterator obj = new RLEIterator(A);
+ * int param_1 = obj.next(n);
+ */
