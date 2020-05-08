@@ -1,3 +1,3 @@
 # Competitive Programming
 
-Solutions to the Computer Contest problems that I solve on LeetCode and DMOJ
+Solutions to the competitive programming problems that I solve on LeetCode and DMOJ
