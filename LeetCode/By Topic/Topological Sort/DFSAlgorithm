@@ -1,0 +1,36 @@
+class Solution {
+	
+	public int dfs(List<List<Integer>> adjList, int node, boolean[] vis, int[] sorted, int count) {
+		vis[node] = true;
+
+		count ++;
+
+		for (int next : adjList.get(node))
+			if (!vis[next])
+				count = dfs(adjList, next, vis, sorted, count);
+		
+		sorted[count] = node;
+		count ++;
+
+		return count;
+	}
+
+	public List<Integer> topSort(List<List<Integer>> adjList, int N) {
+		int[] departure = new int[2 * N];
+		Arrays.fill(departure, -1);
+
+		boolean[] vis = new boolean[N];
+		int time = 0;
+
+		for (int i = 0; i < N; i++)
+			if (!vis[i])
+				count = dfs(adjList, i, vis, departure, count);
+
+		List<Integer> res = new ArrayList<>();
+		for (int i = 2*N-1, i >= 0; i--)
+			if (departure[i] != -1)
+				res.add(departure[i]);
+
+		return res;
+	}
+}
